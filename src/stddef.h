@@ -1,5 +1,5 @@
 /*
- * errno.h
+ * stddef.h
  *
  *
  * Copyright (C) 2016  Bryant Moscon - bmoscon@gmail.com
@@ -9,14 +9,14 @@
  *
  */
 
-#ifndef __ERRNO__
-#define __ERRNO__
-
-#define EDOM 1
-#define ERANGE 2
+#ifndef __STDDEF__
+#define __STDDEF__
 
 
-extern int errno;
+#define size_t       unsigned long int
+#define ptrdiff_t    long int
+#define wchar_t      int
+#define NULL         (0)
 
 
 #endif

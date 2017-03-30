@@ -1,5 +1,5 @@
 /*
- * errno.h
+ * math.h
  *
  *
  * Copyright (C) 2016  Bryant Moscon - bmoscon@gmail.com
@@ -9,14 +9,10 @@
  *
  */
 
-#ifndef __ERRNO__
-#define __ERRNO__
-
-#define EDOM 1
-#define ERANGE 2
+#ifndef __MATH__
+#define __MATH__
 
 
-extern int errno;
 
 
 #endif
